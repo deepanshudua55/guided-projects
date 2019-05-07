@@ -45,8 +45,8 @@ def count_down_recursive(n):
 # n = 2 = O(4)
 # n = 2 = O(4)
 # n = 3 = O(8)
-# n = 3 = O(16)
-# n = 3 = O(32)
+# n = 4 = O(16)
+# n = 5 = O(32)
 
 
 def nth_fibonacci(n):

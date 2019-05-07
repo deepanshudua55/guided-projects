@@ -49,7 +49,7 @@ def quicksort(data):
     # divde up our array
     left, pivot, right = partition(data)
     # recursive case
-    # create a concentated array from the LHS, pivot and RHS
+    # create a concatenated array from the LHS, pivot and RHS
     return quicksort(left) + [pivot] + quicksort(right)
 
 
