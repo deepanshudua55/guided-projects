@@ -44,8 +44,8 @@ def power(a, b):
     print(a)
 
 
-# power(2, -3)  # 8
-# power(2, -3.5)  # 8
+# power(2, 3)  # 8
+# power(2, -3)  # .125
 
 
 def nth_fibonacci(n):
