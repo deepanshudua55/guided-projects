@@ -49,7 +49,6 @@ def power(a, b):
 
 
 def nth_fibonacci(n):
-    print(n)
     if n == 0:
         return 0
     if n == 1:
@@ -57,7 +56,8 @@ def nth_fibonacci(n):
     return nth_fibonacci(n - 1) + nth_fibonacci(n - 2)
 
 
-nth_fibonacci(500)
+# nth_fibonacci(500) <- won't ever finish running because nth_fibonacci is too slow
+
 # 5
 
 # return nth_fibonacci(4) + nth_fibonacci(3)
