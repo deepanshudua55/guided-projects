@@ -2,10 +2,13 @@
 
 ## Links
 
-[Great video example of whiteboarding](https://www.youtube.com/watch?v=XKu_SEDAykw)
-[Big-O Notation](https://runestone.academy/runestone/static/pythonds/AlgorithmAnalysis/BigONotation.html)
-[Big-O Cheatsheet](http://bigocheatsheet.com/)
-[Polya's problem solving technique](https://math.berkeley.edu/~gmelvin/polya.pdf)
+- [Great video example of whiteboarding](https://www.youtube.com/watch?v=XKu_SEDAykw)
+
+- [Big-O Notation](https://runestone.academy/runestone/static/pythonds/AlgorithmAnalysis/BigONotation.html)
+
+- [Big-O Cheatsheet](http://bigocheatsheet.com/)
+
+- [Polya's problem solving technique](https://math.berkeley.edu/~gmelvin/polya.pdf)
 
 ## What is an algorithm?
 
