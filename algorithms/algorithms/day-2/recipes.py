@@ -1,5 +1,5 @@
 
-# What is the smallest result from divided every value in the ingredients dictionary by its corresponding value in the recipe dictionary?
+# What is the smallest result from dividing every value in the ingredients dictionary by its corresponding value in the recipe dictionary?
 
 # Loop through the ingredients dictionary
 # Keep a variable for the smallest result - initialize it as None
