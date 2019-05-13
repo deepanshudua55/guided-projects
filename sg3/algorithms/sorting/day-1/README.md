@@ -2,7 +2,7 @@
 
 ## Big O/Time Complexity
 
-- What is the minimum amount of times that a function runs?
+- What is the maximum amount of times that a function runs?
 - Big O is the worst case. Big Theta is the average case and Big Omega is the best case.
 
 ### Big O Analysis
@@ -25,4 +25,4 @@
   - Paritioning an array
   - Writing recursive functions
   - Randomization
-- Sorting combines theses subroutines together to create larger, more complex solutions.
+- Sorting combines these subroutines together to create larger, more complex solutions.
