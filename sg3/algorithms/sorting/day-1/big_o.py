@@ -38,7 +38,6 @@ def baz(n):
     return result  # O(1)
 
 
-# If n is small, then it's O(n), but if n is big then O()
 # O(1 + 2 + n + 15) -> O(n)
 def bar2(n):
     result = 0  # O(1)
