@@ -62,7 +62,7 @@ def binary_find_name(name_to_find, phonebook):
 
     # larger
     else:
-        # Search the lower half
+        # Search the upper half
         return binary_find_name(name_to_find, phonebook[midpoint:])
 
 
