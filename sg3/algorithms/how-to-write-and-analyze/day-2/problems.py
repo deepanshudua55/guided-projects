@@ -102,7 +102,7 @@ s_string = text_input['s']
 x_string = text_input['x']
 s = s_string
 x = x_string
-
+print("smaller test")
 print("First Pass Solution")
 start_time = time()
 strstr_fp(s, x)
@@ -119,7 +119,7 @@ strstr_ivan(s, x)
 end_time = time()
 print(format((end_time - start_time), "1.12f"))
 
-
+print("bigger test")
 f = open("test-22.json", 'r')
 text_input = json.load(f)['input']
 s_string = text_input['s']
@@ -127,11 +127,11 @@ x_string = text_input['x']
 s = s_string
 x = x_string
 
-# print("First Pass Solution")
-# start_time = time()
-# strstr_fp(s, x)
-# end_time = time()
-# print(format((end_time - start_time), "1.12f"))
+print("First Pass Solution")
+start_time = time()
+strstr_fp(s, x)
+end_time = time()
+print(format((end_time - start_time), "1.12f"))
 print("Second pass solution")
 start_time = time()
 strstr(s, x)
