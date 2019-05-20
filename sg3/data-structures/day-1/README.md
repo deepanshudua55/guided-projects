@@ -17,7 +17,7 @@
 
 ## Arrays vs. Linked Lists
 
-- Removing and Inserted from index 0 in an array is O(n) time complexity.
+- Removing and inserting from index 0 in an array is O(n) time complexity.
 - An array is a contiguous block of memory.
   - When something is inserted/deleted at index 0, every other element must be moved 1 spot over in memory.
   ```python
