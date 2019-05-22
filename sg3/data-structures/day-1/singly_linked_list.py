@@ -49,6 +49,9 @@ class LinkedList:
     # returns the value of the removed head
     # O(1)
     def remove_head(self):
+        # check if we have a head
+        if not self.head:
+            return
         # remove the head
         # set head.next_node to be our new head
         value = self.head.get_value()
