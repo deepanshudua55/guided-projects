@@ -78,7 +78,7 @@ class Graph:
             v = s.pop()
             if v not in visited:
                 visited.add(v)
-                for next_vert in self.vertices(v):
+                for next_vert in self.vertices[v]:
                     s.push(next_vert)
 
     """  
