@@ -92,9 +92,9 @@ class Graph:
         # create en empty queue and enqueue a PATH to the starting vertex ID
         # create a set for the visited vertices
         # while the queue is not empty
-            # deqeue the first path
+            # dequeue the first path
             # grab the last vertex from that path (last index in the list)
-            # if it hasnt been visited
+            # if it hasn't been visited
                 # check if its the target
                     # if so, return the path
                 # mark it as visited
