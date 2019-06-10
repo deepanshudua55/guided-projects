@@ -19,5 +19,5 @@
   - memory address
   - pointer
 - Memory addresses are numbers, just like array indices
-- You can the memory address of any variable by using the address-of-operator `&`
+- You can get the memory address of any variable by using the address-of-operator `&`
 - You can get the value stored at any memory address using the dereference operator `*`
