@@ -8,7 +8,7 @@
 - Many programming languages are written in C
   - Python, PHP, Ruby
 - Manual memory management gives you a better understanding of how things like the register, stack, and heap memory work.
-- C produce more efficient programs than many higher-level languages
+- C produces more efficient programs than many higher-level languages
 
 ## Memory
 
