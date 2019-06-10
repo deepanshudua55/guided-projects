@@ -21,7 +21,7 @@ int main(void)
     int x = 2;         // 16 bit integer
     float pi = 3.14;   // 32 bit float
     double dub = 2.55; // 64 bit float
-    char c = 'c';      // character, 16 bits
+    char c = 'c';      // character, 8 bits/1 byte
     bool my_bool = return_bool(1);
     // ternary operator - is this true, if so do first, if not do second
     int n = my_bool ? 1 : 0;
