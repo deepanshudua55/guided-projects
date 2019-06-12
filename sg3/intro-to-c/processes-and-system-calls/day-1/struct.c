@@ -60,5 +60,7 @@ int main(void)
 
     printf("%d - %s\n", error->error_code, error->error_name);
     printf("%s\n", error->error_message);
+
+    free_error(error);
     return 0;
 }
