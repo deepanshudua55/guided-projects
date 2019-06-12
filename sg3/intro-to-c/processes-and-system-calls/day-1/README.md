@@ -51,7 +51,7 @@
 2. Privileged processes - Operating System
    - Hardware can only be accessed through the operating system.
 3. Normal processes
-   - Normal processes can only access the harware by doing _system calls_ to the operating system.
+   - Normal processes can only access the hardware by doing _system calls_ to the operating system.
 
 #### System Calls
 
