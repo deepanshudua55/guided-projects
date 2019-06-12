@@ -57,8 +57,8 @@
 
 - System calls can be thought of as API calls from programs to your operating system.
   - Imagine a webapp with a SQL database
-  - We could interact directly with that database with SQL statements, but that would be very insecure.
-  - Instead what we do is create a REST API that's HTTP requests.
+  - We could access the SQL database directly from our web client, but that would be insecure and leave us vulnerable to SQL injections.
+  - Instead we create a REST API that acts as an intermediary between the client and the database that is accessed through HTTP requests.
   - This way, our client can only read/write to our database based on the limitations we define.
   - Client->API->Database:Processes->System Calls->OS->Hardware
   - It would be very insecure to let programs access the hardware directly, so our OS exposes system calls to each process to allow safe interaction between processes and hardware.
