@@ -40,6 +40,5 @@ int main(int argc, char *argv[])
 
     arr->elements[0] = "STRING1";
     arr->elements[1] = "STRING2";
-
     return 0;
 }
