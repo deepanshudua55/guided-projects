@@ -14,7 +14,7 @@
 - The word hash is derived from "hatchet" (an axe).
 - The hash function will take in strings of variable length, and will always give us back an integer that is <= our total number of buckets.
 - One approach to a hash function is using the `%` operator
-  - key % # of buckets
+  - (key) % (# of buckets)
 
 ## Usage
 
