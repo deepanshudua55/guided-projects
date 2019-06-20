@@ -5,7 +5,7 @@
 - n = total number of keys
 - k = number of buckets
 - Load factor = n/k
-  - Keeping the load factor low, keeps the chance of collisions low.
+  - Keeping the load factor low keeps the chance of collisions low.
 - Ideally, each bucket should have a 1/k chance of being returned from our hash function.
 - Collisions are essentially inevitable.
 - A bad hash function can make collisions more likely than they should be. It would favor some indices in the array over others.
