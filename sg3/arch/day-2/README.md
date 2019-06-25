@@ -6,7 +6,7 @@
 
 | Operation | Bitwise Operator | Boolean Operator |
 | :-------: | :--------------: | :--------------: |
-|    OR     |       `|`        |       `||`       |
+|    OR     |       `\|`       |      `\|\|`      |
 |    AND    |       `&`        |       `&&`       |
 |    XOR    |       `^`        |       none       |
 |    NOT    |       `~`        |       `!`        |
