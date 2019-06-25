@@ -46,10 +46,24 @@
 ```
 
 ```python
+#        vv extract these bits 0b01 == 1
 x = 0b01001100
-y = x >> 3
+# Shift right to move them to the end
+#                                    vv
+y = x >> 3 #                 0b00001001
+
+# And mask with 0b11 to filter out all other bits
+
+# With the AND mask, the bits you're interested in "show through"
+# where the mask is `1`, and are filtered out where the mask is `0`.
+# It's like a stencil.
 
 z = y & 0b11
+#   0b00001001
+# & 0b00000011
+# ------------
+#   0b00000001
+#           ^^ there's our 0b01!
 ```
 
 ## Using Right Shift to Increment the PC
