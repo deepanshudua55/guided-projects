@@ -36,7 +36,7 @@ int main(void)
 ## LS8 Stack Visual
 
 ```
-FF: 00 <-- SP
+FF: 00 
 FE: 00
 FD: 00
 FC: 00
@@ -47,7 +47,7 @@ F8: 00
 F7: 00
 F6: 00
 F5: 00
-F4: 00
+F4: 00 <-- SP
 F3: 12
 F2: 32
 F1: 00
