@@ -5,4 +5,4 @@ POP R1
 POP R1 <-- popping from an empty stack
 
 
-0b00000000 == 255 == 0xFF
+0b11111111 == 255 == 0xFF
