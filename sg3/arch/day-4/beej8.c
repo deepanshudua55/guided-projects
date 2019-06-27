@@ -15,6 +15,8 @@ from memory and runs in a loop to execute those instructions
 #define ADD 7
 #define PUSH 8
 #define POP 9
+#define CALL 10
+#define RET 11
 
 unsigned char registers[8];
 unsigned char memory[256];
@@ -26,6 +28,7 @@ int main(int argc, char *argv[])
 
     unsigned char reg_num, val;
     unsigned char reg_num0, reg_num1;
+    unsigned char return_addr;
 
     if (argc != 2)
     {
@@ -74,6 +77,23 @@ int main(int argc, char *argv[])
 
         switch (command)
         {
+        case CALL:
+            return_addr = cur_index + 2;
+
+            // push the return_addr onto the stack
+            registers[7]--;
+            memory[registers[7]] = return_addr;
+
+            reg_num = memory[cur_index + 1];
+            cur_index = registers[reg_num];
+            break;
+
+        case RET:
+            // pops the program counter off the stack
+            cur_index = memory[registers[7]];
+            registers[7]++;
+
+            break;
         case PUSH:
             registers[7]--;
             printf("Stack Pointer: %d\n", registers[7]);
