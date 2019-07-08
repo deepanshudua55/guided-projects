@@ -2,9 +2,12 @@
 
 ## Protocols
 
-- A convention/agreement on how to communicate between a client and server.
-- HTTP protocol defines the structure of communication between clients and servers - Application layer - Build a request and sends to the OS and its wrapped in a TCP header - OS then wraps in an IP packet
+- A convention/agreement on how to communicate between a client and a server.
 
+  - HTTP protocol defines the structure of communication between clients and servers
+    - Application layer
+    - Build a request and sends to the OS and its wrapped in a TCP header
+    - OS then wraps in an IP packet
   - TCP - makes sure all of the data you send arrives in order and intact
     - Used by other protocols like HTTP
   - IP - all about routing to other machines
