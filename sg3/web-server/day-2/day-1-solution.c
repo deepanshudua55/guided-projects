@@ -215,6 +215,7 @@ void handle_http_request(int fd, struct cache *cache)
         }
         else
         {
+            // send 404 because get_file hasn't been implemented yet
             resp_404(fd);
         }
     }
