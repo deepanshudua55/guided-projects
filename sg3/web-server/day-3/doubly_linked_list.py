@@ -37,6 +37,9 @@ class ListNode:
         if self.next:
             self.next.prev = self.prev
 
+    def __repr__(self):
+        return f'{self.value}'
+
 
 """Our doubly-linked list class. It holds references to 
 the list's head and tail nodes."""
@@ -125,3 +128,6 @@ class DoublyLinkedList:
         else:
             node.delete()
         self.add_to_tail(value)
+
+    def __repr__(self):
+        return f'Head: {self.head}, Tail: {self.tail}'
