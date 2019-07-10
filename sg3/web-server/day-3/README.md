@@ -21,8 +21,8 @@
     - The most recently used item was either just added or requested.
   - Our least recently used item with be at the tail
     - If the cache is full and another is added, then this item will be removed to make room.
-- We used a hash table to store key/value pairs where the key is the filename string and the value is the Linked List Node that contains the file data.
-  - Accessing/searching/deleting from a hash table is O(1), while it's O(n) for a Linked List (for all nodes besides the head and tail).
+    - We use a hash table to store key/value pairs where the key is the filename string and the value is the Linked List Node that contains the file data.
+      - Accessing/searching/deleting from a hash table is O(1), while it's O(n) for a Linked List (for all nodes besides the head and tail).
 
 ### Example
 
